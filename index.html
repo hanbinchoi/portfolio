@@ -39,7 +39,8 @@
         <h2 class="home_description">A Growing Software Engineer with happy life.</h2>
         <button class="home_contact">Contact me</button>
     </section>
-    <div class="about_me">
+    <!-- About -->
+    <section id="about_me">
         <h1>About me</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
@@ -47,71 +48,210 @@
             electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
             Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
             Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <div class="skills">
-            <div class="skill">
-                <img src="img/favicon.png" alt="">
-                <span class="title">Front-end</span>
-                <span class="description">HTML, CSS, JavaScript</span>
+        <div class="about_majors">
+            <div class="major">
+                <div class="major_icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="major_title">Front-end</div>
+                <div class="major_description">HTML, CSS, JavaScript</div>
             </div>
-            <div class="skill">
-                <img src="img/favicon.png" alt="">
-                <span class="title">Front-end</span>
-                <span class="description">HTML, CSS, JavaScript</span>
+            <div class="major">
+                <div class="major_icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="major_title">Front-end</div>
+                <div class="major_description">HTML, CSS, JavaScript</div>
             </div>
-            <div class="skill">
-                <img src="img/favicon.png" alt="">
-                <span class="title">Front-end</span>
-                <span class="description">HTML, CSS, JavaScript</span>
+            <div class="major">
+                <div class="major_icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="major_title">Front-end</div>
+                <div class="major_description">HTML, CSS, JavaScript</div>
+            </div>
+
+        </div>
+        <div class="about_jobs">
+            <div class="job">
+                <img src="img/favicon.png" alt="gachon_univ" class="job_logo">
+                <p class="job_name">Entrance into Gachon University, Dept of Software </p>
+                <p class="job_period"></p>
+            </div>
+            <div class="job">
+                <img src="img/favicon.png" alt="" class="job_logo">
+                <p class="job_name">Entrance into Gachon University, Dept of Software </p>
+                <p class="job_period"></p>
             </div>
         </div>
-        <div class="history_container">
-            <div class="history">
-                <img src="img/favicon.png" alt="">
-                <span class="title">Entrance into Gachon University, Dept of Software </span>
-            </div>
-            <div class="history">
-                <img src="img/favicon.png" alt="">
-                <span class="title">Entrance into Gachon University, Dept of Software </span>
-            </div>
-        </div>
-    </div>
+    </section>
     <!-- Skills -->
     <section id="skills">
-        <div class="title">Skills</div>
-        <div class="subtitle">Skills & Attributes</div>
-        <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
             has been the
             industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
             scrambled it to make a type specimen book.</p>
-        <div class="skill_graph">
-
+        <div class="skillset">
+            <div class="skillset_left">
+                <h3 class="skillset_title">Skills</h3>
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>HTML</span>
+                        <span>99%</span>
+                    </div>
+                    <div class="skill_bar">
+                        <div class="skill_value"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>CSS</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="skill_bar">
+                        <div class="skill_value"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>JS</span>
+                        <span>30%</span>
+                    </div>
+                    <div class="skill_bar">
+                        <div class="skill_value"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skillset_right">
+                <div class="tools">
+                    <h3 class="skillset_title">Tools</h3>
+                    <ul class="tools_list">
+                        <li><span>Visual Studio Code</span></li>
+                        <li><span>미정</span></li>
+                        <li><span>미정</span></li>
+                        <li><span>미정</span></li>
+                        <li><span>미정</span></li>
+                    </ul>
+                </div>
+                <div class="etc">
+                    <h3 class="skillset_title">Etc</h3>
+                    <ul class="etc_list">
+                        <li><span>Git</span></li>
+                        <li><span>미정</span></li>
+                        <li><span>미정</span></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Work -->
     <section id="work">
-        <div class="title">My Work</div>
-        <div class="subtitle">Projects</div>
-        <div class="subjects">
-            <span class="subject">All</span>
-            <span class="subject">Front-end</span>
-            <span class="subject">Back-end</span>
-            <span class="subject">Etc.</span>
+        <h1>My Work</h1>
+        <h3>Projects</h3>
+        <div class="work_categories">
+            <button class="category_btn">All <span class="category_count">8</span></button>
+            <button class="category_btn">Front-end <span class="category_count">3</span></button>
+            <button class="category_btn">Back-end <span class="category_count">3</span></button>
+            <button class="category_btn">Etc. <span class="category_count">2</span></button>
+        </div>
+        <div class="work_project">
+            <a href="https://github.com/hanbinchoi/momentum" class="project" target="blank">
+                <img class="project_img" src="img/project/momentum.PNG" alt="momentum">
+                <div class="project_description">
+                    <h3>Momentum</h3>
+                    <span>Clone coding with HTML, CSS and JS</span>
+                </div>
+            </a>
+            <a href="https://github.com/hanbinchoi/momentum" class="project" target="blank">
+                <img class="project_img" src="img/project/momentum.PNG" alt="momentum">
+                <div class="project_description">
+                    <h3>Momentum</h3>
+                    <span>Clone coding with HTML, CSS and JS</span>
+                </div>
+            </a>
+            <a href="https://github.com/hanbinchoi/momentum" class="project" target="blank">
+                <img class="project_img" src="img/project/momentum.PNG" alt="momentum">
+                <div class="project_description">
+                    <h3>Momentum</h3>
+                    <span>Clone coding with HTML, CSS and JS</span>
+                </div>
+            </a>
+            <a href="https://github.com/hanbinchoi/momentum" class="project" target="blank">
+                <img class="project_img" src="img/project/momentum.PNG" alt="momentum">
+                <div class="project_description">
+                    <h3>Momentum</h3>
+                    <span>Clone coding with HTML, CSS and JS</span>
+                </div>
+            </a>
+            <a href="https://github.com/hanbinchoi/momentum" class="project" target="blank">
+                <img class="project_img" src="img/project/momentum.PNG" alt="momentum">
+                <div class="project_description">
+                    <h3>Momentum</h3>
+                    <span>Clone coding with HTML, CSS and JS</span>
+                </div>
+            </a>
+            <a href="https://github.com/hanbinchoi/momentum" class="project" target="blank">
+                <img class="project_img" src="img/project/momentum.PNG" alt="momentum">
+                <div class="project_description">
+                    <h3>Momentum</h3>
+                    <span>Clone coding with HTML, CSS and JS</span>
+                </div>
+            </a>
+            <a href="https://github.com/hanbinchoi/momentum" class="project" target="blank">
+                <img class="project_img" src="img/project/momentum.PNG" alt="momentum">
+                <div class="project_description">
+                    <h3>Momentum</h3>
+                    <span>Clone coding with HTML, CSS and JS</span>
+                </div>
+            </a>
+            <a href="https://github.com/hanbinchoi/momentum" class="project" target="blank">
+                <img class="project_img" src="img/project/momentum.PNG" alt="momentum">
+                <div class="project_description">
+                    <h3>Momentum</h3>
+                    <span>Clone coding with HTML, CSS and JS</span>
+                </div>
+            </a>
         </div>
     </section>
     <!-- Testmonials -->
     <section id="testimonials">
-        <div class="title"></div>
+        <h1>Testimonials</h1>
+        <h3>See What they say about me</h3>
+        <div class="testimonials">
+            <div class="testimonial">
+                <img src="img/favicon.png" alt="" class="testimonial_avatar">
+                <div class="testimonial_speech-bubble">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quasi vero nulla ad quaerat hic. Temporibus, dolor? A quaerat ullam, labore culpa consequuntur ducimus, repellat aut, sit commodi eaque eos.</p>
+                    <p class="name"><a href="https://www.naver.com" target="blank">미정</a> /  samsung</p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="img/favicon.png" alt="" class="testimonial_avatar">
+                <div class="testimonial_speech-bubble">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quasi vero nulla ad quaerat hic. Temporibus, dolor? A quaerat ullam, labore culpa consequuntur ducimus, repellat aut, sit commodi eaque eos.</p>
+                    <p class="name"><a href="https://www.naver.com" target="blank">미정</a> /  samsung</p>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- Contact -->
     <section id="contact">
-        <div class="title">Contact me!</div>
-        <div class="e_mail">wkghskak@nvaer.com</div>
-        <div class="links">
-            <a href="#"><img src="img/favicon.png" alt=""></a>
+        <h1 class="contact_title">Contact me!</h1>
+        <h2 class="contact_email">wkghskak@nvaer.com</h2>
+        <div class="contact_links">
+            <a href="https://github.com/hanbinchoi" target="blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/%ED%95%9C%EB%B9%88-%EC%B5%9C-13878521b/" target="blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
         </div>
-        <div class="author">
+        
+        <p class="contact_rights">
             2021 Hanbin Choi - All right reserved
-        </div>
+        </p>
     </section>
 </body>
 
