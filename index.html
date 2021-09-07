@@ -11,34 +11,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav id="navbar">
-        <div class="navbar_logo">
-            <img src="img/favicon.png" alt="">
-            <a href="#">Hanbin</a>
-        </div>
-        <div class="navbar_menu">
-            <ul class="navbar_menu">
-                <li class="navbar_menu_item">Home</li>
-                <li class="navbar_menu_item">About</li>
-                <li class="navbar_menu_item">Skills</li>
-                <li class="navbar_menu_item">My Work</li>
-                <li class="navbar_menu_item">Testimonial</li>
-                <li class="navbar_menu_item">Contact</li>
-            </ul>
-
-        </div>
-    </nav>
-    <!-- Home -->
-    <section id="Home">
-        <img class="home_avatar" src="img/me.jpg" alt="My profile photo">
-        <h1 class="home_title">Hello, <br>I'm Hanbin Choi</h1>
-        <h2 class="home_description">A Growing Software Engineer with happy life.</h2>
-        <button class="home_contact">Contact me</button>
-    </section>
+    
+    <header>
+        <!-- Navbar -->
+        <nav id="navbar">
+            <div class="navbar_logo">
+                <img src="img/favicon.png" alt="">
+                <a href="#">Hanbin</a>
+            </div>
+            <div class="navbar_menu">
+                <ul class="navbar_menu">
+                    <li class="navbar_menu_item">Home</li>
+                    <li class="navbar_menu_item">About</li>
+                    <li class="navbar_menu_item">Skills</li>
+                    <li class="navbar_menu_item">My Work</li>
+                    <li class="navbar_menu_item">Testimonial</li>
+                    <li class="navbar_menu_item">Contact</li>
+                </ul>
+    
+            </div>
+        </nav>
+        <!-- Home -->
+        <section id="home">
+            <img class="home_avatar" src="img/me.jpg" alt="My profile photo">
+            <h1 class="home_title">Hello,</h1>
+            <h1 class="home_subtitle">I'm Hanbin Choi</h1>
+            <h2 class="home_description">A Growing Software Engineer with strong passion and positive attitude.</h2>
+            <button class="home_contact">Contact me</button>
+        </section>
+    </header>
+    
     <!-- About -->
     <section id="about_me">
         <h1>About me</h1>
@@ -54,34 +61,38 @@
                     <i class="fab fa-html5"></i>
                 </div>
                 <div class="major_title">Front-end</div>
-                <div class="major_description">HTML, CSS, JavaScript</div>
+                <div class="major_description">HTML, CSS, JavaScript, TypeScript, React, Vue, Web APIs</div>
             </div>
             <div class="major">
                 <div class="major_icon">
                     <i class="fab fa-html5"></i>
                 </div>
                 <div class="major_title">Front-end</div>
-                <div class="major_description">HTML, CSS, JavaScript</div>
+                <div class="major_description">HTML, CSS, JavaScript, TypeScript, React, Vue, Web APIs</div>
             </div>
             <div class="major">
                 <div class="major_icon">
                     <i class="fab fa-html5"></i>
                 </div>
                 <div class="major_title">Front-end</div>
-                <div class="major_description">HTML, CSS, JavaScript</div>
+                <div class="major_description">HTML, CSS, JavaScript, TypeScript, React, Vue, Web APIs</div>
             </div>
 
         </div>
         <div class="about_jobs">
             <div class="job">
-                <img src="img/favicon.png" alt="gachon_univ" class="job_logo">
-                <p class="job_name">Entrance into Gachon University, Dept of Software </p>
-                <p class="job_period"></p>
+                <img src="img/gc-logo.png" alt="gachon_univ" class="job_logo">
+                <div class="job_info">
+                    <p class="job_name">Entrance into Gachon University, Dept of Software </p>
+                    <p class="job_period">2015 Mar - 2021 Feb</p>
+                </div>
             </div>
             <div class="job">
-                <img src="img/favicon.png" alt="" class="job_logo">
-                <p class="job_name">Entrance into Gachon University, Dept of Software </p>
-                <p class="job_period"></p>
+                <img src="img/gc-logo.png" alt="gachon_univ" class="job_logo">
+                <div class="job_info">
+                    <p class="job_name">Entrance into Gachon University, Dept of Software </p>
+                    <p class="job_period">2015 Mar - 2021 Feb</p>
+                </div>
             </div>
         </div>
     </section>
@@ -96,51 +107,68 @@
         <div class="skillset">
             <div class="skillset_left">
                 <h3 class="skillset_title">Skills</h3>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>HTML</span>
-                        <span>99%</span>
+                <div class="skills">
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>HTML</span>
+                            <span>99%</span>
+                        </div>
+                        <div class="skill_bar">
+                            <div class="skill_value"></div>
+                        </div>
                     </div>
-                    <div class="skill_bar">
-                        <div class="skill_value"></div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>CSS</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="skill_bar">
+                            <div class="skill_value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>JS</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="skill_bar">
+                            <div class="skill_value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>JS</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="skill_bar">
+                            <div class="skill_value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>JS</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="skill_bar">
+                            <div class="skill_value"></div>
+                        </div>
                     </div>
                 </div>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>CSS</span>
-                        <span>50%</span>
-                    </div>
-                    <div class="skill_bar">
-                        <div class="skill_value"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>JS</span>
-                        <span>30%</span>
-                    </div>
-                    <div class="skill_bar">
-                        <div class="skill_value"></div>
-                    </div>
-                </div>
+                
             </div>
             <div class="skillset_right">
                 <div class="tools">
                     <h3 class="skillset_title">Tools</h3>
                     <ul class="tools_list">
                         <li><span>Visual Studio Code</span></li>
-                        <li><span>미정</span></li>
-                        <li><span>미정</span></li>
-                        <li><span>미정</span></li>
-                        <li><span>미정</span></li>
+                        <li><span>PyCharm</span></li>
+                        <li><span>Android Studio</span></li>
                     </ul>
                 </div>
                 <div class="etc">
                     <h3 class="skillset_title">Etc</h3>
                     <ul class="etc_list">
                         <li><span>Git</span></li>
-                        <li><span>미정</span></li>
-                        <li><span>미정</span></li>
                     </ul>
                 </div>
             </div>
