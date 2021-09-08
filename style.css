@@ -317,3 +317,55 @@ li{
 .etc .etc_list{
     padding: 0;
 }
+
+#work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#work h1{
+    font-size: var(--text-size-large);
+    margin: 5% 0 1% 0;
+}
+#work h3{
+    font-size: var(--text-size-small);
+    margin:0;
+    margin-bottom: 3%;
+}
+
+#work .work_categories{
+    margin-bottom: 3%;
+}
+
+#work .work_categories > button{
+    border: 1px solid var(--text-color-gray);
+    border-radius: 5%;
+    background-color: transparent;
+    padding: 5px 30px 5px 30px;
+    font-weight: 600;
+    color:black;
+}
+
+#work .work_project{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 90%;
+    
+}
+#work .work_project a{
+    padding:10%;
+    background-color: gainsboro;
+    margin:3px;
+    text-align: center;
+}
+#work .work_project a >img{
+    width: 90%;
+    height: 80%;
+    
+}
+
+.work_project .project_description{
+    visibility: hidden;
+    color:red;
+}
