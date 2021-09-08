@@ -25,7 +25,7 @@ body{
 header{
     background-image: url('img/bg.png');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     
 }
 li{
@@ -115,7 +115,7 @@ li{
 }
 
 #home .home_contact:hover{
-    
+    color:red;
 }
 
 #about_me{
