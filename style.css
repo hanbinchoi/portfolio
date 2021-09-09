@@ -1,6 +1,6 @@
 :root{
     --text-color-white: #ffffff;
-    --text-color-black: #c03546;
+    --text-color-black: #B5C3C8;
     --text-color-gray: #8b8687;
     --skill-background-color:#e3dede;
     --skillset-left-background-color:#444444;
@@ -182,6 +182,8 @@ li{
 
 #about_me{
     margin-bottom: calc(var(--margin) * 20);
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 #about_me .about_jobs .job{
@@ -190,6 +192,7 @@ li{
     justify-content: flex-start;
     align-items: center;
     margin-left: calc(var(--margin) * 3);
+    margin-bottom: 10px;
 
 }
 
@@ -223,13 +226,15 @@ li{
 
 
 #skills{
-    background-color: var(--skill-background-color);
-    padding-bottom: 100px;
+    background-color: #F6EBE7;
+    margin: 0 5%;
+    padding-bottom: 10px;
+    color:black;
 }
 
 #skills > h1 {
     text-align: center;
-    padding: calc(var(--margin) * 20) 0 calc(var(--margin) * 2) 0;
+    padding: calc(var(--margin) * 10) 0 calc(var(--margin) * 2) 0;
     font-size: var(--text-size-large);
     font-weight: bold;
     margin:0;
@@ -355,7 +360,7 @@ li{
 }
 #work .work_project a{
     padding:10%;
-    background-color: gainsboro;
+    background-color: #D3D3D6;
     margin:3px;
     text-align: center;
 }
@@ -368,4 +373,91 @@ li{
 .work_project .project_description{
     visibility: hidden;
     color:red;
+}
+
+#testimonials{
+    background-color: #E7E7E8;
+    margin: 5% 5% 0 5%;
+    border:none;
+}
+
+#testimonials h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0 5px 0;
+    margin: 0;
+}
+#testimonials h3{
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#testimonials .testimonial {
+    display: flex;
+    flex-direction: row;
+    padding: 2% 5%;
+    
+}
+
+.testimonial img:nth-child(odd){
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+
+.testimonial img:nth-child(even){
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+
+.testimonial .testimonial_speech-bubble{
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 25px;
+    color: var(--text-color-gray);
+}
+.testimonial_speech-bubble .name > a{
+    color: salmon;
+}
+
+#contact{
+    background-color: #B5C3C8;
+    margin: 0 5%;
+    text-align: center;
+    color: #FFF8F8;
+}
+
+#contact h1{
+    margin:0;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+#contact h2{
+    font-size: 20px;
+    margin: 0;
+    font-weight: 500;
+    padding: 0;
+    margin-top: 20px;
+}
+#contact .contact_links{
+    margin: 10px 0 0 0;
+    font-size: 40px;
+}
+.contact_links a{
+    color:whitesmoke
+}
+
+#contact .contact_rights{
+    padding: 20px 0;
+}
+
+#contact p{
+    margin:0;
 }
