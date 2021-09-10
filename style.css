@@ -384,7 +384,7 @@ li{
 #testimonials h1{
     font-size: 40px;
     text-align: center;
-    padding: 50px 0 5px 0;
+    padding: 30px 0 5px 0;
     margin: 0;
 }
 #testimonials h3{
@@ -392,7 +392,7 @@ li{
     text-align: center;
     margin: 0;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 #testimonials .testimonial {
@@ -403,24 +403,33 @@ li{
 }
 
 .testimonial img:nth-child(odd){
-    width: 20%;
+    width: 10%;
     border-radius: 50%;
     margin-right: 5%;
 }
 
 .testimonial img:nth-child(even){
-    width: 20%;
+    width: 10%;
     border-radius: 50%;
     margin-left: 5%;
 }
 
 .testimonial .testimonial_speech-bubble{
+    box-sizing: border-box;
     background-color: white;
     border-radius: 15px;
     text-align: center;
-    vertical-align: middle;
-    padding-top: 25px;
+    padding: 0 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: var(--text-color-gray);
+}
+.testimonial_speech-bubble p {
+    padding: 0;
+    margin: 0;
+    
 }
 .testimonial_speech-bubble .name > a{
     color: salmon;
@@ -435,29 +444,32 @@ li{
 
 #contact h1{
     margin:0;
-    padding-top: 30px;
-    font-size: 30px;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 #contact h2{
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
-    font-weight: 500;
+    font-weight: 700;
     padding: 0;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 #contact .contact_links{
-    margin: 10px 0 0 0;
-    font-size: 40px;
+    margin: 5px 0;
+    font-size: 30px;
 }
 .contact_links a{
     color:whitesmoke
 }
 
 #contact .contact_rights{
-    padding: 20px 0;
+    padding: 0;
+    padding-bottom: 20px;
 }
 
 #contact p{
     margin:0;
+    font-size: 12px;
 }
