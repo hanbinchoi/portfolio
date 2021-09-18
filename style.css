@@ -121,8 +121,13 @@ header{
 }
 
 .sticky-nav{
+    position:fixed;
     background-color: var(--color-black);
-    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:var(--color-white);
+    opacity: 0.8;
     z-index: 1;
 }
 
@@ -145,6 +150,7 @@ header{
     margin: 0 4px;
     cursor:pointer;
     border-radius: var(--size-border-radius);
+    font-size: 22px;
 }
 
 .navbar_menu_item.active {
@@ -159,7 +165,7 @@ header{
 .navbar_toggle-btn{
     position: absolute;
     right: 32px;
-    top: 24px;
+    top: 20px;
     font-size: 24px;
     color:var(--color-white);
     display: none;
@@ -330,11 +336,11 @@ header{
     border: 1px solid var(--color-dark-grey);
     border-radius: var(--size-border-radius);
     font-size: var(--font-regular);
-    padding: 8px 32px;
+    padding: 8px 30px;
     margin-left: 12px;
 }
 
-.category_btn.active,
+.category_btn.selected,
 .category_btn:hover{
     background-color: whitesmoke;
     color: var(--color-dark-grey);
@@ -342,7 +348,7 @@ header{
     border: 1.5px solid var(--color-dark-grey);
 }
 
-.category_btn.active .category_count,
+.category_btn.selected .category_count,
 .category_btn:hover .category_count{
     opacity: 1;
     top: 0;
@@ -367,6 +373,13 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    opacity: 1;
+    transition: all var(--animation-duration) ease-out;
+}
+
+.work_project.anim-out {
+    opacity: 0;
+    transform: scale(0.96) translateY(40px);
 }
 
 .project{
@@ -378,6 +391,10 @@ header{
     height: 170px;
     margin: 20px;
     background-color: var(--color-light-white);
+}
+
+.project.invisible{
+    display: none;
 }
 
 .project_img{
@@ -400,13 +417,15 @@ header{
     transition: all var(--animation-duration) ease-in;
 }
 
+
 .project:hover .project_description{
     opacity: 0.7;
     transform: translateY(0px);
 }
 .project_description h3{
-    color:var(--color-white);
+    color: gold;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 
 
@@ -415,12 +434,13 @@ header{
     position: relative;
     left: 50%;
     content: '';
-    width: 20px;
+    width: 50px;
     height: 2px;
-    margin-left: -12px;
+    transform: translateX(-50%);
     margin-top: 8px;
     background-color: var(--color-dark-white);
 }
+
 
 /* Testimonial */
 #testimonials{
@@ -501,14 +521,41 @@ header{
     padding-bottom: 20px;
     font-size: var(--font-micro);
 }
+
+/* Arrow up btn */
+.arrow-up{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    background-color: var(--color-dark-grey);
+    color: var(--color-white);
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 300ms ease-in;
+    pointer-events: none;
+}
+
+.arrow-up.visible{
+    opacity: 1;
+    pointer-events: auto;
+}
+
 /* For below 768px screen width */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .navbar_toggle-btn {
         display: block;
     }
     #navbar {
         flex-direction: column;
         align-items: flex-start;
+        background-color: black;
+    }
+        
+    #navbar.sticky-nav{
+        position:fixed;
     }
 
     .navbar_menu{
@@ -516,6 +563,13 @@ header{
         text-align: center;
         width: 100%;
         display: none;
+        background-color: black;
+    }
+
+    .navbar_menu.open{
+        display: block;
+        margin:0;
+        width: 100%;
     }
 
     .about_majors{
@@ -529,6 +583,27 @@ header{
         flex-direction: column;
     }
 
+    .work_categories{
+        margin: 0;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 40px;
+    }
+    .category_btn{
+        display: block;
+        padding:0;
+        margin: 0;
+        margin-right: 5px;
+        width: 25%;
+        text-align: center;
+        font-size: var(--font-micro);
+    }
+    .category_count{
+        display: none;
+    }
+
     .project{
         flex-grow: 1;
         background-color: transparent;
@@ -537,6 +612,13 @@ header{
     .testimonial_avatar{
         width: 80px;
         height: 80px; 
+    }
+    .arrow-up{
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        right: 30px;
+        bottom: 30px;
     }
 }
 
