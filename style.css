@@ -470,12 +470,15 @@ header{
 
 
 .testimonial_speech-bubble{
-    padding: 18px;
+    padding: 20px 18px;
     background-color: var(--color-white);
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .testimonial_speech-bubble p{
+    margin-bottom: 10px;
     color:var(--color-light-grey);
 }
 
@@ -612,6 +615,13 @@ header{
     .testimonial_avatar{
         width: 80px;
         height: 80px; 
+    }
+    .testimonials{
+        margin: 0;
+    }
+    .testimonial_speech-bubble{
+        display: inline;
+        padding: 0;
     }
     .arrow-up{
         width: 30px;
