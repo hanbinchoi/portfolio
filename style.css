@@ -110,11 +110,20 @@ header{
 /* navbar */
 
 #navbar{
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color:var(--color-white);
     padding: 16px;
+    transition: all var(--animation-duration) ease-in-out;
+}
+
+.sticky-nav{
+    background-color: var(--color-black);
+    height: 60px;
+    z-index: 1;
 }
 
 .navbar_logo{
@@ -159,6 +168,7 @@ header{
 /* home */
 #home {
     padding: 40px;
+    padding-top: 120px;
     text-align: center;
 }
 
@@ -529,3 +539,5 @@ header{
         height: 80px; 
     }
 }
+
+
