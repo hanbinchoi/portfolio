@@ -263,6 +263,16 @@ header{
     }
 }
 
+.history {
+    text-align: left;
+    font-size: var(--font-regular);
+    font-weight: bold;
+    color: var(--color-light-grey);
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: 5px solid var(--color-dark-grey);
+}
+
 .major_title, .major_description{
     color:var(--color-dark-grgey);
     text-align: left;
