@@ -1,6 +1,8 @@
 # 🎈 Welcome to my Portfolio! 🎈
 
-## 포트폴리오 웹 사이트 입니다
+### (URL)[https://hanbinchoi.github.io/portfolio/]
+
+### 포트폴리오 웹 사이트 입니다
 
 HTML, CSS, JavaScript로 동작하며,
 데스크탑과 모바일 2가지에 반응형 디자인을 지원합니다
@@ -19,7 +21,7 @@ HTML, CSS, JavaScript로 동작하며,
 모바일 모드에서는 menu-bar는 숨겨지며 toggle 버튼을 통해 동작이 가능합니다.
 
 <img src="img/readme-img/토글.png"  width="200" height="400"/>
-<img src="img/readme-img/토글-on.png"  width="200" height="400" align="right"/>
+<img src="img/readme-img/토글-on.png"  width="200" height="400"/>
 
 <br>
 <br>
