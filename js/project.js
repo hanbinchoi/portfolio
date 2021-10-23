@@ -37,7 +37,7 @@ const end = document.querySelector('.end')
 
 const imgSet = [
     ["", "./img/travelic/1.gif", "./img/travelic/2.PNG", "./img/travelic/3.PNG", "./img/travelic/4.PNG"],
-    ["", "./img/rail-fall/1.png", "./img/rail-fall/2.PNG"],
+    ["", "./img/rail-fall/1.gif", "./img/rail-fall/2.gif", "./img/rail-fall/3.gif", "./img/rail-fall/4.gif"],
     ["", "./img/hellschedule/1.png", "./img/hellschedule/2.PNG"]
 ]
 let imgList = []
@@ -170,4 +170,4 @@ arrow_right.addEventListener("click", () => {
 
 })
 
-window.addEventListener('load', changeCategory(0));
+window.addEventListener('load', changeCategory(1));
