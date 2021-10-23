@@ -1,6 +1,6 @@
 # 🎈 Welcome to my Portfolio! 🎈
 
-### (URL)[https://hanbinchoi.github.io/portfolio/]
+### [🔗URL](https://hanbinchoi.github.io/portfolio/)
 
 ### 포트폴리오 웹 사이트 입니다
 
