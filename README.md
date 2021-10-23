@@ -29,7 +29,7 @@ HTML, CSS, JavaScript로 동작하며,
 메뉴 버튼을 통해 해당 메뉴로 이동할 수 있으며 메뉴 바 는 스크롤과 함께 내려옵니다.
 
 <img src="img/readme-img/메뉴.png"  width="250" height="200"/>
-<img src="img/readme-img/메뉴-fix.png"  width="250" height="200" align="right"/>
+<img src="img/readme-img/메뉴-fix.png"  width="250" height="200"/>
 
 <br>
 <br>
@@ -47,7 +47,7 @@ HTML, CSS, JavaScript로 동작하며,
 페이지 상단으로 이동하고 싶으면 "위쪽 화살표" 버튼을 클릭하여 이동할 수 있으며 현재 스크롤 위치가 페이지 상단에 위치에 있을경우 버튼은 자동으로 숨겨집니다.
 
 <img src="img/readme-img/화살표.png"  width="250" height="200"/>
-<img src="img/readme-img/화살표-on.png"  width="250" height="200" align="right"/>
+<img src="img/readme-img/화살표-on.png"  width="250" height="200"/>
 <br>
 <br>
 
