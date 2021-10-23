@@ -38,7 +38,7 @@ const end = document.querySelector('.end')
 const imgSet = [
     ["", "./img/travelic/1.gif", "./img/travelic/2.PNG", "./img/travelic/3.PNG", "./img/travelic/4.PNG"],
     ["", "./img/rail-fall/1.gif", "./img/rail-fall/2.gif", "./img/rail-fall/3.gif", "./img/rail-fall/4.gif"],
-    ["", "./img/hellschedule/1.png", "./img/hellschedule/2.PNG"]
+    ["", "./img/hellschedule/1.png", "./img/hellschedule/2.png", "./img/hellschedule/3.png", "./img/hellschedule/4.png"]
 ]
 let imgList = []
 const imgBox = document.querySelector('.img_box')
