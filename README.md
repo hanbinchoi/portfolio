@@ -4,7 +4,9 @@
 
 ### 포트폴리오 웹 사이트 입니다
 
-HTML, CSS, JavaScript로 동작하며,
+HTML, CSS, JavaScript로 동작하며, JQuery, BootStrap등 라이브러리와 프레임워크를 사용하지 않고 순수 JavaScript로만 동작합니다.
+
+
 데스크탑과 모바일 2가지에 반응형 디자인을 지원합니다
 
 ### Desktop
