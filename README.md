@@ -9,7 +9,7 @@ HTML, CSS, JavaScript로 동작하며,
 
 ### Desktop
 
-<img src="img/readme-img/데탑.png"  width="500" height="300"/>
+<img src="img/readme-img/데탑.png"  width="500" height="350"/>
 
 ### Mobile
 
@@ -28,8 +28,8 @@ HTML, CSS, JavaScript로 동작하며,
 
 메뉴 버튼을 통해 해당 메뉴로 이동할 수 있으며 메뉴 바 는 스크롤과 함께 내려옵니다.
 <p float="left">
-  <img src="img/readme-img/메뉴.png"  width="250" height="200"/> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="img/readme-img/메뉴-fix.png"  width="250" height="200"/>
+  <img src="img/readme-img/메뉴.png"  width="450" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="img/readme-img/메뉴-fix.png"  width="450" height="300"/>
 </p>
 <br>
 <br>
@@ -46,12 +46,12 @@ HTML, CSS, JavaScript로 동작하며,
 
 페이지 상단으로 이동하고 싶으면 "위쪽 화살표" 버튼을 클릭하여 이동할 수 있으며 현재 스크롤 위치가 페이지 상단에 위치에 있을경우 버튼은 자동으로 숨겨집니다.
 <p float="left">
-  <img src="img/readme-img/화살표.png"  width="250" height="200"/> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="img/readme-img/화살표-on.png"  width="250" height="200"/>
+  <img src="img/readme-img/화살표.png"  width="450" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="img/readme-img/화살표-on.png"  width="450" height="300"/>
  </p>
 <br>
 <br>
 
 Contact me에 GitHub, Instagram 로고 를 클릭하면 저의 프로필 화면으로 이동합니다.
 
-<img src="img/readme-img/콘택트.png"  width="250" height="200"/>
+<img src="img/readme-img/콘택트.png"  width="500" height="350"/>
