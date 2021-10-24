@@ -133,6 +133,7 @@ function changeCategory(index) {
     url_link.href = urlList[index]
     url_link.innerHTML = urlList[index]
     work_right.innerHTML = rightList[index]
+    arrow_left.style.cursor = "default"
 }
 
 function drawImage(index) {
@@ -160,6 +161,7 @@ arrow_right.addEventListener("click", () => {
     if (parseInt(now.innerHTML) != parseInt(end.innerHTML)) {
         now.innerHTML = parseInt(now.innerHTML) + 1
         arrow_right.style.cursor = "pointer"
+        arrow_left.style.cursor = "pointer"
         drawImage(parseInt(now.innerHTML))
     }
 
