@@ -36,7 +36,7 @@ const now = document.querySelector('.now')
 const end = document.querySelector('.end')
 
 const imgSet = [
-    ["", "./img/travelic/1.gif", "./img/travelic/2.PNG", "./img/travelic/3.PNG", "./img/travelic/4.PNG"],
+    ["", "./img/travelic/1.gif", "./img/travelic/2.gif", "./img/travelic/3.gif", "./img/travelic/4.gif", "./img/travelic/5.gif"],
     ["", "./img/rail-fall/1.gif", "./img/rail-fall/2.gif", "./img/rail-fall/3.gif", "./img/rail-fall/4.gif"],
     ["", "./img/hellschedule/1.png", "./img/hellschedule/2.png", "./img/hellschedule/3.png", "./img/hellschedule/4.png"]
 ]
@@ -172,4 +172,4 @@ arrow_right.addEventListener("click", () => {
 
 })
 
-window.addEventListener('load', changeCategory(1));
+window.addEventListener('load', changeCategory(0));
