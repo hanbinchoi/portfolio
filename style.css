@@ -395,7 +395,7 @@ header{
     max-width: 1200px;
     height: 700px;
     border-radius: 20px;
-    border: 5px solid #FFDE66;
+    border: 5px solid #FFB766;
 }
 .work_title {
     font-size: var(--font-large);
@@ -448,7 +448,7 @@ h4 i {
 .link_container a {
     display: flex;
     align-items: center;
-    color: #FF8868;
+    color: #FCD09E;
     font-weight: var(--weight-bold);
 }
 .work_right {
